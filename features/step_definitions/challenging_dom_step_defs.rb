@@ -1,16 +1,17 @@
 Given("I access the heroku app website") do
-  pending # Write code here that turns the phrase above into concrete actions
+  home_page.visit_homepage
 end
 
 Given("I click on Challenging DOM") do
-  pending # Write code here that turns the phrase above into concrete actions
+  home_page.click_challenging_dom_link
 end
 
 
 When("I click on the red button") do
-  pending # Write code here that turns the phrase above into concrete actions
+  @red_button_previous_text = challenging_dom.get_red_button_text
+  challenging_dom.click_red_button
 end
 
 Then("the text of the red button will change") do
-  pending # Write code here that turns the phrase above into concrete actions
+  expect(challenging_dom.get_red_button_text).to_not eq @red_button_previous_text
 end

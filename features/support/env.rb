@@ -1,8 +1,11 @@
 require 'capybara/cucumber'
 require 'capybara'
 require 'capybara/dsl'
+require "selenium-webdriver"
 require "rspec"
 require_relative '../../lib/heroku_app.rb'
+
+# Selenium::WebDriver::Chrome.driver_path="C:\Ruby24-x64\bin/chromedriver"
 
 RSpec.configure do |config|
   config.formatter = :documentation

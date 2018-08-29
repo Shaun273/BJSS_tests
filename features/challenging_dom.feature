@@ -1,4 +1,4 @@
-Feature: Challenging DOM
+Feature: Task 1 - Challenging DOM
 
   Scenario: Red button changing text
     Given I access the heroku app website
