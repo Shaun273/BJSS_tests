@@ -5,6 +5,6 @@ class DynamicallyLoadedElementsExample2Page
     click_on("Start")
   end
   def find_text_after_loading
-    page.find('Hello World!')
+    page.find('h4', text: 'Hello World!').text
   end
 end

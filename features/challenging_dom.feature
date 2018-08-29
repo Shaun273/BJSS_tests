@@ -1,5 +1,6 @@
 Feature: Task 1 - Challenging DOM
 
+  @task1
   Scenario: Red button changing text
     Given I access the heroku app website
     And I click on Challenging DOM

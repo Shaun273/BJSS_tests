@@ -11,6 +11,9 @@ When("I click on the start button") do
   dynamically_loaded_example_2.click_start
 end
 
-Then("the text will display after the loading bar completes") do
+Then("the text 'Hello World!' will display after the loading bar completes") do
+  # sleep 5
+  # puts page.has_content?("Hello World!")
+  # expect(page.has_content?("Hello World!")).to be true
   expect(dynamically_loaded_example_2.find_text_after_loading).to_not be nil
 end
