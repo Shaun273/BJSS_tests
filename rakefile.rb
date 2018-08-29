@@ -15,10 +15,3 @@ desc "APi tests"
 task :rspec do
   sh 'rspec spec'
 end
-#
-# desc "Run all tasks"
-# task :default do
-#   cucumber
-#
-#
-# end
