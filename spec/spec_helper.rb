@@ -1,5 +1,5 @@
 require 'rspec'
-require_relative '../user_creator'
+require_relative '../user_creator_api'
 
 
 RSpec.configure do |config|
