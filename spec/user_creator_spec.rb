@@ -2,7 +2,6 @@ require 'spec_helper'
 
 describe UserCreator do
 
-
   context 'creating a user' do
 
     before(:all) do
