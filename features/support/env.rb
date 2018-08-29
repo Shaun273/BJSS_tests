@@ -19,4 +19,4 @@ Capybara.configure do |config|
   config.app_host = 'https://the-internet.herokuapp.com/'
 end
 
-World(TestSite)
+World(HerokuApp)
